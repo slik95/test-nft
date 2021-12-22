@@ -1,9 +1,9 @@
 /node_modules
 /public/hot
-/public/storage/debugbar/*.json
-/public/storage/framework/cache/data/*.json
-/public/storage/framework/sessions/*.json
-/public/storage/framework/views/*.json
+/storage/debugbar/*.json
+/storage/framework/cache/data/*.json
+/storage/framework/sessions/*
+/storage/framework/views/*.php
 /storage/*.key
 /vendor
 .env
