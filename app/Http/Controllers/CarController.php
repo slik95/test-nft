@@ -89,8 +89,8 @@ class CarController extends Controller {
 			$uploaded_file_name = strtolower( str_replace( ' ', '_', $name ) );
 
 			$response = Http::withHeaders( [
-				'pinata_api_key'        => '72a94c9c71e9e91de6e3',
-				'pinata_secret_api_key' => '19e64398c5ef83b27374ebc0984befb15510cb1b7bea63faa7db0277398cb194'
+                'pinata_api_key' => '5f4a9813f099cbc6b7f4',
+                'pinata_secret_api_key' => 'cd3836d58ada66e58918b6aa1c499ae44e7404b617032c2b7f02e10fbb2373f5',
 			] )->attach( 'file', file_get_contents( $url ), $uploaded_file_name )
 			                ->post( 'https://api.pinata.cloud/pinning/pinFileToIPFS', [
 			                ] );
