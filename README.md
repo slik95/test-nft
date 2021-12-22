@@ -12,3 +12,7 @@ for CDN purposes.
 This repo belongs to my blog post [Create your first NFT Market place for selling cars in PHP Laravel and web3.js](http://blog.adnansiddiqi.me/create-your-first-nft-market-place-for-selling-cars-in-php-laravel-and-web3-js/)
 
 Lancer ```make p-install``` puis ```make serve```
+
+fichiers utile: 
+ - app/Http/Controllers/CarController => la partie appelle a pinata function ```addedCar```
+ - public/js/app.js  => ```createNFT```
